@@ -9,11 +9,25 @@ public class ScannerClass {
 		Scanner scanner = new Scanner(System.in);		
 		
 		byte age;
+		String fullName, numberPhone, country;
 		
-		System.out.print("Type your age: ");
+		System.out.println("Type your age: ");
 		age = scanner.nextByte();
-		System.out.println("Your're " + age + " years old.");
 		
+		System.out.println("Type your full name: ");
+		fullName = scanner.nextLine();
+		
+		System.out.println("Type your phone number: ");
+		numberPhone = scanner.next();
+		
+		System.out.println("Type your country: ");
+		country = scanner.next();
+		
+		
+		System.out.println(age);
+		System.out.println(fullName);
+		System.out.println(numberPhone);
+		System.out.println(country);
 		
 	}
 
